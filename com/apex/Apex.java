@@ -90,7 +90,7 @@ public class Apex {
 		instructions = new ArrayList<String>();
 		instructions.add("");
 		try (BufferedReader br = new BufferedReader(new FileReader(
-				"E:/Java EE Eclipse/MyProjects/Apex/com/apex/Input.txt"))) {
+				"/home/vaibhav/Disk/SoftwareDevelopment/Eclipse/EclipseProjects/Apex/com/apex/Input.txt"))) {
 			String line;
 			while ((line = br.readLine()) != null) {
 				// process the line.
